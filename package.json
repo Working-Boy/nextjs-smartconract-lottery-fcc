@@ -17,7 +17,8 @@
     "react-dom": "19.1.0",
     "react-moralis": "^1.4.2",
     "viem": "^2.34.0",
-    "wagmi": "^2.16.4"
+    "wagmi": "^2.16.4",
+    "web3uikit": "^1.1.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
