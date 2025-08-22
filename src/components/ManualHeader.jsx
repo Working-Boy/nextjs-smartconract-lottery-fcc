@@ -30,7 +30,7 @@ export default function ManualHeader() {
             onClick={() => connect({ connector: connectors[0] })} 
             disabled={connectors.length === 0}
             style={{ opacity: connectors.length === 0 ? 0.5 : 1, cursor: connectors.length === 0 ? "not-allowed" : "pointer" }}
-          >
+        >
             {connectors.length === 0 ? "No Wallet Detected" : "Connect Wallet"}
       </button>
 
